@@ -4,7 +4,12 @@
     <projectFile>Src/Main/Introspection.Adapters.Primary.Blazor/Introspection.Adapters.Primary.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="" />
+    <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillQueryShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Introspection.Hexagon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Introspection.Hexagon.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FsDMOegLSk4KBewV8JgKvLzKHk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665271850177</updated>
       <workItem from="1665271852372" duration="534000" />
+      <workItem from="1665272402129" duration="374000" />
     </task>
     <servers />
   </component>
