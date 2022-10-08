@@ -1,4 +1,4 @@
-namespace Introspection.Unit.Hexagon.UseCases;
+namespace Introspection.Hexagon.Models;
 
 public enum StatusDayValidation
 {
