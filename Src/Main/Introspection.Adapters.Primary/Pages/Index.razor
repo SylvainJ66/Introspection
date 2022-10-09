@@ -1,0 +1,43 @@
+﻿@page "/"
+@using Introspection.Hexagon.UseCases
+@using Introspection.Hexagon.Gateways.Repositories
+@using Introspection.Adapters.Secondary.Repositories.InMemory
+@using Introspection.Hexagon.Models
+
+<PageTitle>Introspection</PageTitle>
+
+<MudText Typo="Typo.h3" GutterBottom="true">Day Introspection</MudText>
+
+<MudStack Row="true">
+    <MudPaper Width="300px">
+        <MudList Clickable="true" @bind-SelectedItem="selectedItem" @bind-SelectedValue="selectedValue" Color="_color">
+            <MudListSubheader>
+                Day Will
+            </MudListSubheader>
+            <MudListItem Text="@will.Name" Value="1" />
+        </MudList>
+    </MudPaper>
+    <MudPaper Class="pe-4">
+        <MudRadioGroup T="Color" @bind-SelectedOption="_color" Class="d-flex flex-column">
+            <MudRadio Option="Color.Secondary" Color="Color.Secondary">@StatusDayValidation.Missed</MudRadio>
+            <MudRadio Option="Color.Success" Color="Color.Success">@StatusDayValidation.Validated</MudRadio>
+        </MudRadioGroup>
+    </MudPaper>
+</MudStack>
+
+@code{
+
+    MudListItem selectedItem;
+    object selectedValue = 1;
+    Color _color = Color.Primary;
+    
+    protected Will will { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        IWillRepository willRepository = new InMemoryWillRepository();
+        var handler = new WillQueryHandler(willRepository);
+        var wills = await handler.Handle("SleepEarly", new DateTime(2022, 1, 1));
+        will = wills.First();
+    }
+}
