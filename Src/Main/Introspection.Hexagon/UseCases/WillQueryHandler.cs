@@ -5,8 +5,8 @@ namespace Introspection.Hexagon.UseCases;
 
 public class WillQueryHandler
 {
-    private readonly IWillRepository _willRepository;
-    public WillQueryHandler(IWillRepository willRepository) 
+    private readonly IWillReadRepository _willRepository;
+    public WillQueryHandler(IWillReadRepository willRepository) 
         => _willRepository = willRepository ?? throw new ArgumentNullException();
 
     public async Task<IEnumerable<Will>> Handle(string name, DateTime date) 

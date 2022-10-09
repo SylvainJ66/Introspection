@@ -6,16 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillsQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillReadRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillWriteRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/DayWill.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/ValidateWillCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/ValidateWillCommandHandlerShould.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Index.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillQueryHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/StatusDayValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/DayValidationStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/Will.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/Will.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillsQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillsOnASpecificDayQueryHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillsQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillsQueryHandlerShould.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillQueryHandlerShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillsQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +128,8 @@
       <workItem from="1665272402129" duration="4917000" />
       <workItem from="1665277467482" duration="85000" />
       <workItem from="1665277641364" duration="2643000" />
-      <workItem from="1665318838854" duration="2519000" />
+      <workItem from="1665318838854" duration="2655000" />
+      <workItem from="1665344495695" duration="5876000" />
     </task>
     <servers />
   </component>

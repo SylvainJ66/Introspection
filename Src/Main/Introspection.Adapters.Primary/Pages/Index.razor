@@ -3,45 +3,46 @@
 @using Introspection.Hexagon.Gateways.Repositories
 @using Introspection.Adapters.Secondary.Repositories.InMemory
 @using Introspection.Hexagon.Models
+@using Microsoft.Extensions.Options
 
 <PageTitle>Introspection</PageTitle>
 
 <MudText Typo="Typo.h3" GutterBottom="true">Day Introspection</MudText>
 
-<MudStack Row="true">
-    
-    <MudPaper Width="300px">
-        
-        <MudList Clickable="true" @bind-SelectedItem="selectedItem" @bind-SelectedValue="selectedValue" Color="_color">
-            <MudListSubheader>Day Will</MudListSubheader>
-            @foreach (var will in wills){
-                <MudListItem Text="@will.Name" Value="@will.Name"/>
-                <MudRadioGroup T="Color" @bind-SelectedOption="_color" Class="d-flex flex-column">
-                    <MudRadio Option="Color.Secondary" Color="Color.Secondary">@StatusDayValidation.Missed</MudRadio>
-                    <MudRadio Option="Color.Success" Color="Color.Success">@StatusDayValidation.Validated</MudRadio>
-                </MudRadioGroup>
-            }
-        </MudList>
-        
-    </MudPaper>
-    
-    <MudPaper Class="pe-4">
-
-    </MudPaper>
-</MudStack>
+    <MudItem xs="12" md="6">
+        <MudText Typo="Typo.h6" GutterBottom="true">Icons with text</MudText>
+        <MudPaper Width="100%">
+            <MudList Clickable="true">
+                @foreach (var will in _wills)
+                {
+                    <MudListItem @onclick="@(() => Validate(will))" IconColor="Color.Primary" Text="@will.Name" Icon="@(() => GetIcon(will))"/>    
+                }
+                
+                @* <MudListItem Text="Single List Item" Icon="@Icons.Filled.Bookmark" IconColor="Color.Primary"/> *@
+                @* <MudListItem Text="Single List Item" Icon="@Icons.Filled.Bookmark" IconColor="Color.Secondary"/> *@
+            </MudList>
+        </MudPaper>
+    </MudItem>
 
 @code{
-
-    MudListItem selectedItem;
-    object selectedValue = 1;
-    Color _color = Color.Primary;
     
-    protected IEnumerable<Will> wills { get; set; }
+    protected IEnumerable<Will> _wills { get; set; }
+    protected DateTime _dayDate { get; init; } = new DateTime(2022, 1, 1);
+
+    protected string GetIcon(Will will) 
+        => will.DayValidation(_dayDate) == DayValidationStatus.Validated 
+            ? Icons.Filled.Done 
+            : Icons.Filled.MoveDown ;
     
     protected override async Task OnInitializedAsync()
     {
         IWillRepository willRepository = new InMemoryWillRepository();
-        var handler = new DayWillsQueryHandler(willRepository);
-        wills = await handler.Handle(new DateTime(2022, 1, 1));
+        var handler = new WillsOnASpecificDayQueryHandler(willRepository);
+        _wills = await handler.Handle(new DateTime(2022, 1, 1));
+    }
+
+    protected void Validate(Will will)
+    {
+        var handler = new ValidateWillCommandHandler().Handle(will, _dayDate);
     }
 }

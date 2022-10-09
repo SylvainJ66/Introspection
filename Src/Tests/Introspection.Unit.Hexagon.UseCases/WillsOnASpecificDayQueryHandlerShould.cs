@@ -4,18 +4,19 @@ using Introspection.Hexagon.UseCases;
 
 namespace Introspection.Unit.Hexagon.UseCases;
 
-public class DayWillsQueryHandlerShould
+public class WillsOnASpecificDayQueryHandlerShould
 {    
     private readonly IWillRepository _willRepository;
 
-    public DayWillsQueryHandlerShould()
+    public WillsOnASpecificDayQueryHandlerShould()
     {
         _willRepository = new InMemoryWillRepository();
     }
+    
     [Fact]
     public async Task Get_wills()
     {
-        var wills = (await new DayWillsQueryHandler(_willRepository)
+        var wills = (await new WillsOnASpecificDayQueryHandler(_willRepository)
             .Handle(new DateTime(2022,01,01))).ToList();
         
         Assert.Equal("SleepEarly", wills.First().Name);
