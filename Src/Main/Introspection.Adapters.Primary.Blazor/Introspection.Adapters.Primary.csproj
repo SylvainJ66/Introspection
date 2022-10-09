@@ -10,4 +10,9 @@
     <PackageReference Include="MudBlazor" Version="6.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Introspection.Adapters.Secondary\Introspection.Adapters.Secondary.csproj" />
+    <ProjectReference Include="..\Introspection.Hexagon\Introspection.Hexagon.csproj" />
+  </ItemGroup>
+
 </Project>

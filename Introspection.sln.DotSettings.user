@@ -1,12 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=000a05ca_002D3645_002D4e6b_002Db558_002De3af154db44c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DayIntrospectionShould #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=000a05ca_002D3645_002D4e6b_002Db558_002De3af154db44c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DayIntrospectionShould #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D::net6.0::Introspection.Unit.Hexagon.UseCases.DayIntrospectionShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D::net6.0::Introspection.Unit.Hexagon.UseCases.WillQueryHandlerShould&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=441c639b_002De1cd_002D421a_002D8191_002Db0e42a8ae8d8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DayIntrospectionShould #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=441c639b_002De1cd_002D421a_002D8191_002Db0e42a8ae8d8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DayIntrospectionShould #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D::net6.0::Introspection.Unit.Hexagon.UseCases.DayIntrospectionShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D::net6.0::Introspection.Unit.Hexagon.UseCases.WillQueryHandlerShould&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dddbef7f_002Defaf_002D4c19_002Db3b0_002D63a61de663c3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DayIntrospectionShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;

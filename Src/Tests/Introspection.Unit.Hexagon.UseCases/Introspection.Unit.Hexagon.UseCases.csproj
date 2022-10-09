@@ -22,6 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Main\Introspection.Adapters.Secondary\Introspection.Adapters.Secondary.csproj" />
       <ProjectReference Include="..\..\Main\Introspection.Hexagon\Introspection.Hexagon.csproj" />
     </ItemGroup>
 

@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Hosting.StaticWebAssets;
 using Introspection.Adapters.Primary.Data;
+using Introspection.Adapters.Secondary.Repositories.InMemory;
+using Introspection.Hexagon.Gateways.Repositories;
 using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,7 @@ StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configurat
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<IWillRepository, InMemoryWillRepository>();
 builder.Services.AddMudServices();
 
 var app = builder.Build();

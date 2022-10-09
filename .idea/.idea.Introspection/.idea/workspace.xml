@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillQueryShould.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/Will.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillsQueryHandlerShould.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillQueryHandlerShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Introspection.Hexagon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Introspection.Hexagon.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillQueryShould.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665271850177</updated>
       <workItem from="1665271852372" duration="534000" />
-      <workItem from="1665272402129" duration="374000" />
+      <workItem from="1665272402129" duration="3875000" />
     </task>
     <servers />
   </component>
