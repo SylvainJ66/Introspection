@@ -12,4 +12,13 @@ public class InMemoryWillRepository : IWillRepository
             new() { Name = "SleepEarly" }
         });
     }
+
+    public Task<IEnumerable<Will>> ByDay(DateTime date)
+    {
+        return Task.FromResult<IEnumerable<Will>>(new List<Will>
+        {
+            new() { Name = "SleepEarly" },
+            new() { Name = "Sport" }
+        });
+    }
 }

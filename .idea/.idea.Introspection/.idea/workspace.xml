@@ -6,23 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Introspection.Adapters.Primary.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Introspection.Adapters.Primary.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Counter.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/FetchData.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/wwwroot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/wwwroot/sample-data/weather.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillsQueryHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introspection.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/StatusDayValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/StatusDayValidation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillQueryHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillsQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillsQueryHandlerShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillQueryHandlerShould.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +122,8 @@
       <workItem from="1665271852372" duration="534000" />
       <workItem from="1665272402129" duration="4917000" />
       <workItem from="1665277467482" duration="85000" />
-      <workItem from="1665277641364" duration="2321000" />
+      <workItem from="1665277641364" duration="2643000" />
+      <workItem from="1665318838854" duration="2519000" />
     </task>
     <servers />
   </component>

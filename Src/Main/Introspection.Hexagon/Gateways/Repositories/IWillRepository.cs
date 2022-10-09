@@ -5,4 +5,5 @@ namespace Introspection.Hexagon.Gateways.Repositories;
 public interface IWillRepository
 {
     Task<IEnumerable<Will>> ByNameAndDate(string name, DateTime date);
+    Task<IEnumerable<Will>> ByDay(DateTime date);
 }
