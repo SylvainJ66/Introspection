@@ -6,20 +6,20 @@ namespace Introspection.Unit.Hexagon.UseCases;
 
 public class WillsOnASpecificDayQueryHandlerShould
 {    
-    private readonly IWillRepository _willRepository;
+    private readonly IDayWillRepository _dayWillRepository;
 
     public WillsOnASpecificDayQueryHandlerShould()
     {
-        _willRepository = new InMemoryWillRepository();
+        _dayWillRepository = new InMemoryDayWillRepository();
     }
     
     [Fact]
-    public async Task Get_wills()
+    public async Task Get_daywills()
     {
-        var wills = (await new WillsOnASpecificDayQueryHandler(_willRepository)
+        var wills = (await new DayWillsByDateQueryHandler(_dayWillRepository)
             .Handle(new DateTime(2022,01,01))).ToList();
         
-        Assert.Equal("SleepEarly", wills.First().Name);
-        Assert.Equal("Sport", wills.ElementAt(1).Name);
+        Assert.Equal("SleepEarly", wills.First().Will.Name);
+        Assert.Equal("Sport", wills.ElementAt(1).Will.Name);
     }
 }

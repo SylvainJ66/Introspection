@@ -11,8 +11,8 @@ public class DayWill
         Will = will;
     }
 
-    public DateTime Date { get; init; }
-    public Will Will { get; init; }
+    public DateTime Date { get; }
+    public Will Will { get; }
     public DayValidationStatus Status { get; set; }
 
 }

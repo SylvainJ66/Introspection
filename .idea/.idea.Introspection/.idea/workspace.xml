@@ -6,21 +6,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillReadRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillWriteRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/DayWill.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/ValidateWillCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/ValidateWillCommandHandlerShould.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Store/Actions/DayWillsLoaded.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Store/Actions/LoadDayWills.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Store/AppState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Store/Effects/LoadDayWillsEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Store/IntrospectionFeature.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Store/Reducers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Introspection.Adapters.Primary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Introspection.Adapters.Primary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Counter.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/FetchData.razor" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/StatusDayValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/DayValidationStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/Will.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/Will.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillsQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillsOnASpecificDayQueryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/DayWillsQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/wwwroot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryDayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillReadRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IDayWillReadRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Gateways/Repositories/IDayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/DayWill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/Models/DayWill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillQueryHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/WillsOnASpecificDayQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillsByDateQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillQueryHandlerShould.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +39,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/17.1.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Fin/Pizzas/BlazorPizzas.Store/Actions/AddOrUpdatePizza.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Fin/Pizzas/BlazorPizzas.Store/Actions/LoadPizzas.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Fin/Pizzas/BlazorPizzas.Store/Actions/PizzaUpdated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Fin/Pizzas/BlazorPizzas.Store/Actions/PizzasLoaded.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/134a6267445f46b7a8730761c018e904811000/42/fdcfadb3/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b58d3f3ca13c49a5b72d035ddf801fd010800/4e/14fd9ae2/IStateChangedNotifier.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,16 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSettingsPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderTestRunnerUnitTestingPageId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Introspection.Adapters.Primary">
     <configuration name="Introspection.Adapters.Primary" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -77,6 +94,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -115,6 +133,12 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Introspection.Adapters.Primary" />
+      <item itemvalue=".NET Launch Settings Profile.Introspection.Adapters.Primary: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Introspection.Adapters.Primary: Mudblazor.Template" />
+      <item itemvalue=".NET Project.Introspection.Adapters.Primary" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,7 +153,11 @@
       <workItem from="1665277467482" duration="85000" />
       <workItem from="1665277641364" duration="2643000" />
       <workItem from="1665318838854" duration="2655000" />
-      <workItem from="1665344495695" duration="5876000" />
+      <workItem from="1665344495695" duration="6702000" />
+      <workItem from="1666973074128" duration="295000" />
+      <workItem from="1667037136368" duration="147000" />
+      <workItem from="1667039826361" duration="8715000" />
+      <workItem from="1667049473849" duration="6446000" />
     </task>
     <servers />
   </component>
@@ -148,5 +176,77 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillsByDateQueryHandler.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Hexagon/UseCases/DayWillsByDateQueryHandler.cs" initialLine="12" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="477" />
+            </startOffsets>
+            <endOffsets>
+              <option value="514" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryDayWillRepository.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Secondary/Repositories/InMemory/InMemoryDayWillRepository.cs" initialLine="13" containingFunctionPresentation="method 'ByDate'">
+            <startOffsets>
+              <option value="411" />
+            </startOffsets>
+            <endOffsets>
+              <option value="412" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor.cs" initialLine="16" containingFunctionPresentation="method 'OnInitialized'">
+            <startOffsets>
+              <option value="516" />
+            </startOffsets>
+            <endOffsets>
+              <option value="582" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor.cs" initialLine="11" containingFunctionPresentation="property 'State'">
+            <startOffsets>
+              <option value="387" />
+            </startOffsets>
+            <endOffsets>
+              <option value="391" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor" initialLine="9" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

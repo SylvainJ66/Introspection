@@ -7,42 +7,4 @@
 
 <PageTitle>Introspection</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Day Introspection</MudText>
-
-    <MudItem xs="12" md="6">
-        <MudText Typo="Typo.h6" GutterBottom="true">Icons with text</MudText>
-        <MudPaper Width="100%">
-            <MudList Clickable="true">
-                @foreach (var will in _wills)
-                {
-                    <MudListItem @onclick="@(() => Validate(will))" IconColor="Color.Primary" Text="@will.Name" Icon="@(() => GetIcon(will))"/>    
-                }
-                
-                @* <MudListItem Text="Single List Item" Icon="@Icons.Filled.Bookmark" IconColor="Color.Primary"/> *@
-                @* <MudListItem Text="Single List Item" Icon="@Icons.Filled.Bookmark" IconColor="Color.Secondary"/> *@
-            </MudList>
-        </MudPaper>
-    </MudItem>
-
-@code{
-    
-    protected IEnumerable<Will> _wills { get; set; }
-    protected DateTime _dayDate { get; init; } = new DateTime(2022, 1, 1);
-
-    protected string GetIcon(Will will) 
-        => will.DayValidation(_dayDate) == DayValidationStatus.Validated 
-            ? Icons.Filled.Done 
-            : Icons.Filled.MoveDown ;
-    
-    protected override async Task OnInitializedAsync()
-    {
-        IWillRepository willRepository = new InMemoryWillRepository();
-        var handler = new WillsOnASpecificDayQueryHandler(willRepository);
-        _wills = await handler.Handle(new DateTime(2022, 1, 1));
-    }
-
-    protected void Validate(Will will)
-    {
-        var handler = new ValidateWillCommandHandler().Handle(will, _dayDate);
-    }
-}
+<MudText Typo="Typo.h3" GutterBottom="true">Index</MudText>
