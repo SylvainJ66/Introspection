@@ -1,9 +1,9 @@
-using Introspection.Adapters.Secondary.Repositories.InMemory;
-using Introspection.Hexagon.Gateways.Repositories;
-using Introspection.Hexagon.Models;
-using Introspection.Hexagon.UseCases;
+using Introspection.Infrastructure.Repositories.InMemory;
+using Introspection.Domain.Gateways.Repositories;
+using Introspection.Domain.Models;
+using Introspection.Domain.UseCases;
 
-namespace Introspection.Unit.Hexagon.UseCases;
+namespace Introspection.Unit.Domain.UseCases;
 
 public class ValidateWillCommandHandlerShould
 {

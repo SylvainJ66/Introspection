@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{B5B859C0-2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F741F288-2055-4E9E-A368-703565EBD95C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Hexagon", "Src\Main\Introspection.Hexagon\Introspection.Hexagon.csproj", "{CE02F233-E9A5-4CF4-8675-208E5E0B9401}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Domain", "Src\Main\Introspection.Domain\Introspection.Domain.csproj", "{CE02F233-E9A5-4CF4-8675-208E5E0B9401}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Unit.Hexagon.UseCases", "Src\Tests\Introspection.Unit.Hexagon.UseCases\Introspection.Unit.Hexagon.UseCases.csproj", "{DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Adapters.Secondary", "Src\Main\Introspection.Adapters.Secondary\Introspection.Adapters.Secondary.csproj", "{590F34AC-F090-4A50-90B1-C444B5CF882E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Infrastructure", "Src\Main\Introspection.Infrastructure\Introspection.Infrastructure.csproj", "{590F34AC-F090-4A50-90B1-C444B5CF882E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Adapters.Primary", "Src\Main\Introspection.Adapters.Primary\Introspection.Adapters.Primary.csproj", "{7EFDF5E3-A396-4A19-B7A9-2D3D9A04D6C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Blazor", "Src\Main\Introspection.Blazor\Introspection.Blazor.csproj", "{7EFDF5E3-A396-4A19-B7A9-2D3D9A04D6C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
