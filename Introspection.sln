@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Infrastructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Blazor", "Src\Main\Introspection.Blazor\Introspection.Blazor.csproj", "{7EFDF5E3-A396-4A19-B7A9-2D3D9A04D6C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Api", "Src\Main\Introspection.Api\Introspection.Api.csproj", "{BCDDFAB2-6EAE-47CB-A45B-9D58553EA949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7EFDF5E3-A396-4A19-B7A9-2D3D9A04D6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EFDF5E3-A396-4A19-B7A9-2D3D9A04D6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EFDF5E3-A396-4A19-B7A9-2D3D9A04D6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDDFAB2-6EAE-47CB-A45B-9D58553EA949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDDFAB2-6EAE-47CB-A45B-9D58553EA949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDDFAB2-6EAE-47CB-A45B-9D58553EA949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDDFAB2-6EAE-47CB-A45B-9D58553EA949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +59,6 @@ Global
 		{DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D} = {F741F288-2055-4E9E-A368-703565EBD95C}
 		{590F34AC-F090-4A50-90B1-C444B5CF882E} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 		{7EFDF5E3-A396-4A19-B7A9-2D3D9A04D6C8} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
+		{BCDDFAB2-6EAE-47CB-A45B-9D58553EA949} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 	EndGlobalSection
 EndGlobal
