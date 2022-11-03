@@ -1,3 +1,5 @@
+using Introspection.Back.Domain.UseCases;
+using Introspection.Back.Hexagon.Gateways.Repositories;
 using Introspection.Infrastructure.Repositories.InMemory;
 using Introspection.Domain.Gateways.Repositories;
 using Introspection.Domain.UseCases;

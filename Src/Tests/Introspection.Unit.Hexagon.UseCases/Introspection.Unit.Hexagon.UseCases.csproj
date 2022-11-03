@@ -22,8 +22,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Main\Introspection.Infrastructure\Introspection.Infrastructure.csproj" />
-      <ProjectReference Include="..\..\Main\Introspection.Domain\Introspection.Domain.csproj" />
+      <ProjectReference Include="..\..\Main\Introspection.Back.Infrastructure\Introspection.Back.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\Main\Introspection.Back.Domain\Introspection.Back.Domain.csproj" />
     </ItemGroup>
 
 </Project>
