@@ -20,6 +20,7 @@ public class LoadDayWillsEffect : Effect<LoadDayWills>
         {
             var dayWills = await _useCase.Handle(action.Date);
             dispatcher.Dispatch(new DayWillsLoaded(dayWills));
+            // TODO Call infra to get from api
         }
         catch (Exception e)
         {
