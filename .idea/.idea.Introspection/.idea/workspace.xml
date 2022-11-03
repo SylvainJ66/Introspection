@@ -10,74 +10,50 @@
     <projectFile profileName="IIS Express">Src/Main/Introspection.Back.Api/Introspection.Back.Api.csproj</projectFile>
     <projectFile profileName="Introspection.Api">Src/Main/Introspection.Back.Api/Introspection.Back.Api.csproj</projectFile>
     <projectFile profileName="IIS Express">Src/Main/Introspection.Blazor/Introspection.Blazor.csproj</projectFile>
+    <projectFile>Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Introspection.Front.Blazor.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Pages/Day.razor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Repositories/DayWillRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Actions/DayWillsLoaded.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Actions/LoadDayWills.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/AppState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/wwwroot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Controllers/DayWillController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Introspection.Back.Domain.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Introspection.Back.Infrastructure.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/DayWillEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/WillEntities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/EF/IntrospectionEFDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/.vs/Introspection.Adapters.Primary/xs/UserPrefs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Models/DayValidationStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Models/DayWill.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Models/Will.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/InMemory/InMemoryDayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Introspection.Front.Blazor.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Pages/Day.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Pages/Day.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Pages/Day.razor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Pages/Day.razor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Repositories/DayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Repositories/DayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Actions/DayWillsLoaded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Store/Actions/DayWillsLoaded.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Actions/LoadDayWills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Store/Actions/LoadDayWills.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/AppState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Store/AppState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Effects/LoadDayWillsEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Store/Effects/LoadDayWillsEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/IntrospectionFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Store/IntrospectionFeature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Reducers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Store/Reducers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/wwwroot/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/wwwroot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.Front.Blazor/wwwroot/sample-data/weather.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/wwwroot/sample-data/weather.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Introspection.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Api/Introspection.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Introspection.Back.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/App.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Introspection.Adapters.Primary.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Adapters.Primary.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Introspection.Blazor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Blazor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Pages/Day.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Pages/Day.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Pages/Day.razor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Pages/Index.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Shared/NavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Store/Actions/DayWillsLoaded.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Store/Actions/LoadDayWills.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Store/AppState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Store/Effects/LoadDayWillsEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Effects/LoadDayWillsEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Store/IntrospectionFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/IntrospectionFeature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/Store/Reducers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/Store/Reducers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/wwwroot/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/wwwroot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Blazor/wwwroot/sample-data/weather.json" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.Front.Blazor/wwwroot/sample-data/weather.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/Gateways/Repositories/IDayWillReadRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillReadRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/Gateways/Repositories/IDayWillRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/Gateways/Repositories/IWillWriteRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillWriteRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/Introspection.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Introspection.Front.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/Models/DayValidationStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayValidationStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/Models/DayWill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayWill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/Models/Will.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/Will.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/UseCases/DayWillsByDateQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/UseCases/DayWillsByDateQueryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Domain/UseCases/ValidateWillCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/UseCases/ValidateWillCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Infrastructure/Introspection.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Infrastructure/Repositories/InMemory/InMemoryDayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/InMemory/InMemoryDayWillRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/Introspection.Unit.Hexagon.UseCases.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/Introspection.Unit.Hexagon.UseCases.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Controllers/DayWillController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Controllers/DayWillController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillReadRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillReadRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillWriteRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Gateways/Repositories/IDayWillWriteRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayValidationStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayValidationStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayWill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayWill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/Will.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/Will.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/UseCases/DayWillsByDateQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/UseCases/DayWillsByDateQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/UseCases/ValidateWillCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/UseCases/ValidateWillCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/InMemory/InMemoryDayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/InMemory/InMemoryDayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/.vs/Introspection.Adapters.Primary/xs/UserPrefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Adapters.Primary.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Blazor.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/ValidateWillCommandHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/ValidateWillCommandHandlerShould.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +102,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary.Blazor/Introspection.Adapters.Primary.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Introspection.Front.Blazor" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -265,6 +259,7 @@
       <item itemvalue=".NET Launch Settings Profile.Introspection.Adapters.Primary" />
       <item itemvalue=".NET Launch Settings Profile.Introspection.Adapters.Primary: IIS Express" />
       <item itemvalue=".NET Launch Settings Profile.Introspection.Adapters.Primary: Mudblazor.Template" />
+      <item itemvalue=".NET Project.Introspection.Front.Blazor" />
       <item itemvalue=".NET Project.Introspection.Adapters.Primary" />
     </list>
   </component>
@@ -288,7 +283,7 @@
       <workItem from="1667049473849" duration="6446000" />
       <workItem from="1667087257174" duration="1028000" />
       <workItem from="1667495364281" duration="647000" />
-      <workItem from="1667496018159" duration="11212000" />
+      <workItem from="1667496018159" duration="12025000" />
     </task>
     <servers />
   </component>

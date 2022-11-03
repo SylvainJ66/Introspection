@@ -8,7 +8,10 @@
 
     <ItemGroup>
       <Folder Include="Repositories\Api" />
-      <Folder Include="Repositories\InMemory" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Introspection.Front.Domain\Introspection.Front.Domain.csproj" />
     </ItemGroup>
 
 </Project>

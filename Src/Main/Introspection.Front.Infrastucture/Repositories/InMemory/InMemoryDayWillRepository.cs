@@ -1,7 +1,7 @@
-using Introspection.Back.Domain.Gateways.Repositories;
-using Introspection.Back.Domain.Models;
+using Introspection.Front.Domain.Gateways;
+using Introspection.Front.Domain.Models;
 
-namespace Introspection.Back.Infrastructure.Repositories.InMemory;
+namespace Introspection.Front.Infrastucture.Repositories.InMemory;
 
 public class InMemoryDayWillRepository : IDayWillRepository
 {

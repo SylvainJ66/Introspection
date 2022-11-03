@@ -1,6 +1,4 @@
-using System.ComponentModel;
-
-namespace Introspection.Domain.Models;
+namespace Introspection.Back.Domain.Models;
 
 public enum DayValidationStatus
 {

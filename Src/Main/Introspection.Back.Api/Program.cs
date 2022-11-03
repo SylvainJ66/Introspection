@@ -1,8 +1,6 @@
-using Introspection.Back.Hexagon.Gateways.Repositories;
+using Introspection.Back.Domain.Gateways.Repositories;
 using Introspection.Back.Infrastructure.Repositories.Dapper;
 using Introspection.Back.Infrastructure.Repositories.EF;
-using Introspection.Domain.Gateways.Repositories;
-using Introspection.Infrastructure.Repositories.InMemory;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

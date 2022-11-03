@@ -1,5 +1,5 @@
-using Introspection.Domain.Gateways.Repositories;
-using Introspection.Domain.Models;
+using Introspection.Back.Domain.Gateways.Repositories;
+using Introspection.Back.Domain.Models;
 
 namespace Introspection.Back.Domain.UseCases;
 

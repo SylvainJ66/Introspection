@@ -1,6 +1,4 @@
-using Introspection.Infrastructure.Repositories.InMemory;
-using Introspection.Domain.Gateways.Repositories;
-using Introspection.Domain.Models;
+using Introspection.Back.Domain.Models;
 using Introspection.Domain.UseCases;
 
 namespace Introspection.Unit.Domain.UseCases;

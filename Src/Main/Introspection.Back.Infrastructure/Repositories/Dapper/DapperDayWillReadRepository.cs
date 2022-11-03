@@ -1,6 +1,6 @@
-using Introspection.Domain.Gateways.Repositories;
-using Introspection.Domain.Models;
 using Dapper;
+using Introspection.Back.Domain.Gateways.Repositories;
+using Introspection.Back.Domain.Models;
 using Introspection.Back.Infrastructure.Repositories.Dapper.Entities;
 
 namespace Introspection.Back.Infrastructure.Repositories.Dapper;

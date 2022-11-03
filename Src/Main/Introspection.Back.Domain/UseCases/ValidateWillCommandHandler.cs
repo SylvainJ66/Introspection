@@ -1,4 +1,4 @@
-using Introspection.Domain.Models;
+using Introspection.Back.Domain.Models;
 
 namespace Introspection.Domain.UseCases;
 

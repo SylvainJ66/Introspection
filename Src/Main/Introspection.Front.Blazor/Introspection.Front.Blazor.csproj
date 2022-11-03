@@ -15,8 +15,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Introspection.Infrastructure\Introspection.Infrastructure.csproj" />
-      <ProjectReference Include="..\Introspection.Domain\Introspection.Domain.csproj" />
+      <ProjectReference Include="..\Introspection.Back.Domain\Introspection.Back.Domain.csproj" />
+      <ProjectReference Include="..\Introspection.Front.Domain\Introspection.Front.Domain.csproj" />
     </ItemGroup>
 
 

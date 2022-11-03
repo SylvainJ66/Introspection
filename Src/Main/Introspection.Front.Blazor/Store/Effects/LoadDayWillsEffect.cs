@@ -1,9 +1,7 @@
 using Fluxor;
 using Introspection.Back.Domain.UseCases;
-using Introspection.Back.Hexagon.Gateways.Repositories;
-using Introspection.Domain.Gateways.Repositories;
-using Introspection.Domain.UseCases;
 using Introspection.Front.Blazor.Store.Actions;
+using Introspection.Front.Domain.Gateways;
 
 namespace Introspection.Front.Blazor.Store.Effects;
 

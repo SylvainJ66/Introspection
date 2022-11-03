@@ -1,4 +1,4 @@
-namespace Introspection.Domain.Models;
+namespace Introspection.Back.Domain.Models;
 
 /// <summary>
 /// Will

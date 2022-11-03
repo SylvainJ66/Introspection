@@ -1,6 +1,6 @@
-using Introspection.Domain.Models;
+using Introspection.Back.Domain.Models;
 
-namespace Introspection.Domain.Gateways.Repositories;
+namespace Introspection.Back.Domain.Gateways.Repositories;
 
 public interface IDayWillReadRepository
 {

@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Front.Infrast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Front.Domain", "Src\Main\Introspection.Front.Domain\Introspection.Front.Domain.csproj", "{9AC7DB8B-E816-484C-BA34-7BCB11397171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Front.Blazor", "Introspection.Front.Blazor\Introspection.Front.Blazor.csproj", "{27A9E8AE-7DFF-4BD1-9CBE-1E6A5782E529}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Front.Blazor", "Src\Main\Introspection.Front.Blazor\Introspection.Front.Blazor.csproj", "{CBB20769-49D0-4C0E-8A21-1C99CCB22025}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{9AC7DB8B-E816-484C-BA34-7BCB11397171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AC7DB8B-E816-484C-BA34-7BCB11397171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC7DB8B-E816-484C-BA34-7BCB11397171}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27A9E8AE-7DFF-4BD1-9CBE-1E6A5782E529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27A9E8AE-7DFF-4BD1-9CBE-1E6A5782E529}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27A9E8AE-7DFF-4BD1-9CBE-1E6A5782E529}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27A9E8AE-7DFF-4BD1-9CBE-1E6A5782E529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB20769-49D0-4C0E-8A21-1C99CCB22025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB20769-49D0-4C0E-8A21-1C99CCB22025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB20769-49D0-4C0E-8A21-1C99CCB22025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB20769-49D0-4C0E-8A21-1C99CCB22025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +73,6 @@ Global
 		{BCDDFAB2-6EAE-47CB-A45B-9D58553EA949} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 		{B5DD5B81-57EA-4D00-A81A-43B639B101CB} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 		{9AC7DB8B-E816-484C-BA34-7BCB11397171} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
-		{27A9E8AE-7DFF-4BD1-9CBE-1E6A5782E529} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
+		{CBB20769-49D0-4C0E-8A21-1C99CCB22025} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 	EndGlobalSection
 EndGlobal
