@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Repositories\Api" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Introspection.Front.Domain\Introspection.Front.Domain.csproj" />
     </ItemGroup>
 

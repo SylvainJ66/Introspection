@@ -1,4 +1,4 @@
-using Introspection.Back.Domain.Models;
+using Introspection.Front.Domain.Models;
 
 namespace Introspection.Front.Blazor.Store;
 

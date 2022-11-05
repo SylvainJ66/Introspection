@@ -10,9 +10,9 @@ public class InMemoryDayWillRepository : IDayWillRepository
     /// </summary>
     /// <param name="date"></param>
     /// <returns></returns>
-    public Task<IEnumerable<DayWill>> ByDate(DateTime date)
+    public Task<IEnumerable<DayWill>?> ByDate(DateTime date)
     {
-        return Task.FromResult<IEnumerable<DayWill>>(new List<DayWill>
+        return Task.FromResult<IEnumerable<DayWill>?>(new List<DayWill>
         {
             new(new DateTime(2022, 01, 01),new Will("SleepEarly")),
             new(new DateTime(2022, 01, 01),new Will("Sport")),

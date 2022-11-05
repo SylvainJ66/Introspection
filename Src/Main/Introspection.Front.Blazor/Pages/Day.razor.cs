@@ -1,14 +1,14 @@
 using Fluxor;
 using Introspection.Front.Blazor.Store;
-using Introspection.Front.Blazor.Store.Actions;
+using Introspection.Front.Domain.Store.Actions;
 using Microsoft.AspNetCore.Components;
 
 namespace Introspection.Front.Blazor.Pages;
 
 public class DayBase : ComponentBase, IDisposable
 {
-    [Inject] protected IState<AppState> State { get; set; }
-    [Inject] private IDispatcher Dispatcher { get; set; }
+    [Inject] protected IState<AppState> State { get; set; } = null!;
+    [Inject] private IDispatcher Dispatcher { get; set; } = null!;
 
     protected override void OnInitialized()
     {

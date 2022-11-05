@@ -19,3 +19,5 @@ public class IntrospectionDapperDbContext
     public IDbConnection CreateConnection()
         => new SqliteConnection(_connectionString);
 }
+
+// todo add setup to create the database
