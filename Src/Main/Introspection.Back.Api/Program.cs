@@ -22,6 +22,13 @@ builder.Services.AddSingleton<IDayWillReadRepository, DapperDayWillReadRepositor
 
 var app = builder.Build();
 
+// global cors policy
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // allow any origin 
+    .AllowCredentials());
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

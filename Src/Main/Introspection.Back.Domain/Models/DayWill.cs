@@ -7,10 +7,12 @@ public class DayWill
 {
     public DayWill(DateTime date, Will will)
     {
+        Id = Guid.NewGuid();
         Date = date;
         Will = will;
     }
 
+    public Guid Id { get; }
     public DateTime Date { get; }
     public Will Will { get; }
     public DayValidationStatus Status { get; set; }

@@ -15,5 +15,5 @@ public class DayWillRepository : IDayWillRepository
         => _client = client;
 
     public async Task<IEnumerable<DayWill>?> ByDate(DateTime date) 
-        => await _client.GetFromJsonAsync<IEnumerable<DayWill>>($"api/DayWill/{date}");
+        => await _client.GetFromJsonAsync<IEnumerable<DayWill>>($"api/DayWill/{date.ToString("d")}");
 }
