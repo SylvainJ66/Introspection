@@ -1,7 +1,6 @@
-using System.Drawing;
 using Fluxor;
-using Introspection.Front.Blazor.Store;
 using Introspection.Front.Domain.Models;
+using Introspection.Front.Domain.Store;
 using Introspection.Front.Domain.Store.Actions;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
@@ -19,7 +18,7 @@ public class DayBase : ComponentBase, IDisposable
     /// </summary>
     protected override void OnInitialized()
     {
-        Dispatcher.Dispatch(new LoadDayWills(new DateTime(2022, 01, 01)));
+        Dispatcher.Dispatch(new LoadDayWills());
         State.StateChanged += StateOnStateChanged;
     }
 

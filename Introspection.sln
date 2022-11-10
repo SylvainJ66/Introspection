@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F741F288
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Back.Domain", "Src\Main\Introspection.Back.Domain\Introspection.Back.Domain.csproj", "{CE02F233-E9A5-4CF4-8675-208E5E0B9401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Unit.Hexagon.UseCases", "Src\Tests\Introspection.Unit.Hexagon.UseCases\Introspection.Unit.Hexagon.UseCases.csproj", "{DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Unit.Back.Domain.UseCases", "Src\Tests\Introspection.Unit.Back.Domain.UseCases\Introspection.Unit.Back.Domain.UseCases.csproj", "{DCF1BF99-41B8-480C-8C36-7F7D7F90ED8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Back.Infrastructure", "Src\Main\Introspection.Back.Infrastructure\Introspection.Back.Infrastructure.csproj", "{590F34AC-F090-4A50-90B1-C444B5CF882E}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Front.Domain", "Src\Main\Introspection.Front.Domain\Introspection.Front.Domain.csproj", "{9AC7DB8B-E816-484C-BA34-7BCB11397171}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Front.Blazor", "Src\Main\Introspection.Front.Blazor\Introspection.Front.Blazor.csproj", "{CBB20769-49D0-4C0E-8A21-1C99CCB22025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Unit.Front.Domain", "Src\Tests\Introspection.Unit.Front.Domain\Introspection.Unit.Front.Domain.csproj", "{B101A990-A3C5-4457-BF9C-7CABFD9F0C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introspection.Shared", "Src\Main\Introspection.Shared\Introspection.Shared.csproj", "{60CB5C4D-B231-4F73-AACF-EB48D700BB2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{CBB20769-49D0-4C0E-8A21-1C99CCB22025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB20769-49D0-4C0E-8A21-1C99CCB22025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB20769-49D0-4C0E-8A21-1C99CCB22025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B101A990-A3C5-4457-BF9C-7CABFD9F0C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B101A990-A3C5-4457-BF9C-7CABFD9F0C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B101A990-A3C5-4457-BF9C-7CABFD9F0C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B101A990-A3C5-4457-BF9C-7CABFD9F0C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CB5C4D-B231-4F73-AACF-EB48D700BB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CB5C4D-B231-4F73-AACF-EB48D700BB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CB5C4D-B231-4F73-AACF-EB48D700BB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CB5C4D-B231-4F73-AACF-EB48D700BB2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +86,7 @@ Global
 		{B5DD5B81-57EA-4D00-A81A-43B639B101CB} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 		{9AC7DB8B-E816-484C-BA34-7BCB11397171} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 		{CBB20769-49D0-4C0E-8A21-1C99CCB22025} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
+		{B101A990-A3C5-4457-BF9C-7CABFD9F0C26} = {F741F288-2055-4E9E-A368-703565EBD95C}
+		{60CB5C4D-B231-4F73-AACF-EB48D700BB2A} = {B5B859C0-25D6-4B90-A9E3-1B1C6D528D73}
 	EndGlobalSection
 EndGlobal

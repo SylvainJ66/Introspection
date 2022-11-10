@@ -12,23 +12,36 @@
     <projectFile profileName="IIS Express">Src/Main/Introspection.Blazor/Introspection.Blazor.csproj</projectFile>
     <projectFile profileName="IIS Express">Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj</projectFile>
     <projectFile profileName="Mudblazor.Template">Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj</projectFile>
+    <projectFile profileName="IIS Express">Src/Tests/Introspection.Unit.Front.Domain/Introspection.Unit.Front.Domain.csproj</projectFile>
+    <projectFile profileName="Mudblazor.Template">Src/Tests/Introspection.Unit.Front.Domain/Introspection.Unit.Front.Domain.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Actions/ValidateDayWill.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Shared/Introspection.Shared.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Shared/Models/DeterministicDateProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Shared/Models/IDateProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/DomainContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/Introspection.Unit.Front.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/LoadDayWillsShould.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/ValidateDayWillShould.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayWill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Domain/Models/DayWill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introspection.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Pages/Day.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Pages/Day.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Pages/Day.razor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Pages/Day.razor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Models/DayWill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Models/DayWill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Reducers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Reducers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Gateways/IDayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Gateways/IDayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Actions/LoadDayWills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Actions/LoadDayWills.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/AppState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/AppState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Effects/LoadDayWillsEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Effects/LoadDayWillsEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/IntrospectionFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/IntrospectionFeature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/InMemory/InMemoryDayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/InMemory/InMemoryDayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/Introspection.Unit.Hexagon.UseCases.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Back.Domain.UseCases/Introspection.Unit.Back.Domain.UseCases.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/Usings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Back.Domain.UseCases/Usings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/ValidateWillCommandHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Back.Domain.UseCases/ValidateWillCommandHandlerShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Hexagon.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Back.Domain.UseCases/WillsOnASpecificDayQueryHandlerShould.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +52,8 @@
     <setting file="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/17.1.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/134a6267445f46b7a8730761c018e904811000/42/fdcfadb3/Color.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b58d3f3ca13c49a5b72d035ddf801fd010800/4e/14fd9ae2/IStateChangedNotifier.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b58d3f3ca13c49a5b72d035ddf801fd010800/73/55bfed86/IDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6518e12429e640b855e84dbcb556279a6dcdecc0f25132fcbc5510f956f771e7/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Effects/LoadDayWillsEffect.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,9 +83,39 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Introspection.Front.Blazor: Mudblazor.Template">
     <configuration name="Introspection.Front.Blazor: Mudblazor.Template" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="Mudblazor.Template" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Introspection.Unit.Front.Domain: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/Introspection.Unit.Front.Domain.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Introspection.Unit.Front.Domain: Mudblazor.Template" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/Introspection.Unit.Front.Domain.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="Mudblazor.Template" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -115,6 +160,8 @@
       <workItem from="1667684610241" duration="6696000" />
       <workItem from="1667735530342" duration="5960000" />
       <workItem from="1667766629456" duration="6900000" />
+      <workItem from="1667776463870" duration="56000" />
+      <workItem from="1668111153224" duration="9327000" />
     </task>
     <servers />
   </component>

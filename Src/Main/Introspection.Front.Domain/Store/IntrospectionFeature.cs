@@ -1,4 +1,5 @@
 using Fluxor;
+using Introspection.Front.Domain.Store;
 
 namespace Introspection.Front.Blazor.Store;
 

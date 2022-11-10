@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Introspection.Front.Domain\Introspection.Front.Domain.csproj" />
+      <ProjectReference Include="..\Introspection.Shared\Introspection.Shared.csproj" />
     </ItemGroup>
 
 </Project>

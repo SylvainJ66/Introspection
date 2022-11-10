@@ -1,9 +1,8 @@
 using Introspection.Back.Domain.Gateways.Repositories;
 using Introspection.Back.Domain.UseCases;
 using Introspection.Back.Infrastructure.Repositories.InMemory;
-using Introspection.Domain.UseCases;
 
-namespace Introspection.Unit.Hexagon.UseCases;
+namespace Introspection.Unit.Back.Domain.UseCases;
 
 public class WillsOnASpecificDayQueryHandlerShould
 {    

@@ -1,6 +1,4 @@
 using Fluxor;
-using Introspection.Front.Blazor.Store;
-using Introspection.Front.Domain.Models;
 using Introspection.Front.Domain.Store.Actions;
 
 namespace Introspection.Front.Domain.Store;

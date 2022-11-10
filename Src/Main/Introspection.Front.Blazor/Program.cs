@@ -1,12 +1,10 @@
 using Fluxor;
+using Introspection.Front.Blazor;
+using Introspection.Front.Domain.Gateways;
+using Introspection.Front.Domain.Store;
+using Introspection.Front.Infrastucture.Repositories.InMemory;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Introspection.Front.Blazor;
-using Introspection.Front.Blazor.Store;
-using Introspection.Front.Domain.Gateways;
-using Introspection.Front.Infrastucture.Repositories.FromApi;
-using Introspection.Front.Infrastucture.Repositories.InMemory;
-using Microsoft.Extensions.Options;
 using MudBlazor.Services;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

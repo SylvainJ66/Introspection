@@ -1,5 +1,3 @@
-using System.Drawing;
-
 namespace Introspection.Front.Domain.Models;
 
 /// <summary>

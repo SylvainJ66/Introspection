@@ -1,7 +1,7 @@
 using Introspection.Back.Domain.Models;
 using Introspection.Domain.UseCases;
 
-namespace Introspection.Unit.Domain.UseCases;
+namespace Introspection.Unit.Back.Domain.UseCases;
 
 public class ValidateWillCommandHandlerShould
 {

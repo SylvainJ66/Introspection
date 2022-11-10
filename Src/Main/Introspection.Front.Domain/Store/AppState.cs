@@ -1,6 +1,6 @@
 using Introspection.Front.Domain.Models;
 
-namespace Introspection.Front.Blazor.Store;
+namespace Introspection.Front.Domain.Store;
 
 public record AppState
 {

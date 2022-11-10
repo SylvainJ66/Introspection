@@ -15,7 +15,7 @@ public class LoadDayWillsEffect : Effect<LoadDayWills>
     {
         try
         {
-            var dayWills = await _repo.ByDate(action.Date);
+            var dayWills = await _repo.Today();
             dispatcher.Dispatch(new DayWillsLoaded(dayWills));
         }
         catch (Exception e)
