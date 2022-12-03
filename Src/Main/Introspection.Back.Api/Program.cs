@@ -1,7 +1,5 @@
 using Introspection.Back.Domain.Gateways.Repositories;
 using Introspection.Back.Infrastructure.Repositories.Dapper;
-using Introspection.Back.Infrastructure.Repositories.EF;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +12,6 @@ builder.Services.AddSwaggerGen();
 
 // DbContext
 builder.Services.AddSingleton<IntrospectionDapperDbContext>();
-builder.Services.AddDbContext<IntrospectionEFDbContext>(options =>
-    options.UseSqlite("Filename=database.db"));
 
 // Repositories
 builder.Services.AddSingleton<IDayWillReadRepository, DapperDayWillReadRepository>();

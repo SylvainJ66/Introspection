@@ -1,6 +1,6 @@
 using System.Data;
-using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Configuration;
+using Npgsql;
 
 namespace Introspection.Back.Infrastructure.Repositories.Dapper;
 
@@ -17,7 +17,5 @@ public class IntrospectionDapperDbContext
     }
     
     public IDbConnection CreateConnection()
-        => new SqliteConnection(_connectionString);
+        => new NpgsqlConnection(_connectionString);
 }
-
-// todo add setup to create the database

@@ -18,6 +18,14 @@
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Introspection.Back.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Introspection.Back.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/EF/IntrospectionEFDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +38,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b58d3f3ca13c49a5b72d035ddf801fd010800/4e/14fd9ae2/IStateChangedNotifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b58d3f3ca13c49a5b72d035ddf801fd010800/73/55bfed86/IDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6518e12429e640b855e84dbcb556279a6dcdecc0f25132fcbc5510f956f771e7/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b4aa9d6deee74e2a511d54506de2de864a4b58ad22637cbbc79ef58cb10e3e9/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bebd253e21dcf766929bfdfd74615bfe46e6e1693b289273dbdb82152893/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/Main/Introspection.Front.Domain/Store/Effects/LoadDayWillsEffect.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,18 +58,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderTestRunnerUnitTestingPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderTestRunnerUnitTestingPageId",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Introspection.Front.Blazor: Mudblazor.Template">
+}]]></component>
+  <component name="RunManager" selected=".NET Project.Front">
+    <configuration name="BackAndFront" type="CompoundRunConfigurationType">
+      <toRun name="Back" type="DotNetProject" />
+      <toRun name="Front" type="DotNetProject" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Back" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/bin/Debug/net6.0/Introspection.Back.Api.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Src/Main/Introspection.Back.Api" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_URLS" value="https://*:6001" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Introspection.Back.Api.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net6.0" />
+      <browser url="https://localhost:6001/swagger/index.html" name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" start="true" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Front" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$USER_HOME$/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/6.0.7/tools/blazor-devserver.dll" />
+      <option name="PROGRAM_PARAMETERS" value="--applicationpath $PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/bin/Debug/net6.0/Introspection.Front.Blazor.dll" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_URLS" value="https://*:5001" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net6.0" />
+      <browser url="https://localhost:5001" name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" start="true" with-js-debugger="true" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Front JavaScript" type="JavascriptDebugType" uri="https://localhost:5001">
+      <method v="2" />
+    </configuration>
+    <configuration name="Introspection.Back.Api: Introspection.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Introspection.Back.Api.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="Introspection.Api" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Introspection.Front.Blazor: Mudblazor.Template" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Introspection.Front.Blazor.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -75,38 +157,17 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Introspection.Unit.Front.Domain: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/Introspection.Unit.Front.Domain.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Introspection.Unit.Front.Domain: Mudblazor.Template" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Src/Tests/Introspection.Unit.Front.Domain/Introspection.Unit.Front.Domain.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="Mudblazor.Template" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Introspection.Back.Api: Introspection.Api" />
+      <item itemvalue=".NET Launch Settings Profile.Introspection.Front.Blazor: Mudblazor.Template" />
+      <item itemvalue=".NET Project.Back" />
+      <item itemvalue=".NET Project.Front" />
+      <item itemvalue="Compound.BackAndFront" />
+      <item itemvalue="JavaScript Debug.Front JavaScript" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Launch Settings Profile.Introspection.Back.Api: Introspection.Api" />
         <item itemvalue=".NET Launch Settings Profile.Introspection.Front.Blazor: Mudblazor.Template" />
       </list>
     </recent_temporary>
@@ -138,6 +199,10 @@
       <workItem from="1667766629456" duration="6900000" />
       <workItem from="1667776463870" duration="56000" />
       <workItem from="1668111153224" duration="10319000" />
+      <workItem from="1668968373562" duration="5317000" />
+      <workItem from="1668977062794" duration="251000" />
+      <workItem from="1670014731142" duration="2129000" />
+      <workItem from="1670069778900" duration="4117000" />
     </task>
     <servers />
   </component>
@@ -180,6 +245,32 @@
           <line>11</line>
           <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Adapters.Primary/Pages/Day.razor.cs" initialLine="11" containingFunctionPresentation="property 'State'" />
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" initialLine="19" containingFunctionPresentation="method 'Today'">
+            <startOffsets>
+              <option value="547" />
+            </startOffsets>
+            <endOffsets>
+              <option value="548" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs</url>
+          <line>15</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" initialLine="15" containingFunctionPresentation="constructor 'IntrospectionDapperDbContext'">
+            <startOffsets>
+              <option value="456" />
+            </startOffsets>
+            <endOffsets>
+              <option value="529" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
