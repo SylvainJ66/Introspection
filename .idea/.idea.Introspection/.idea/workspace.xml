@@ -18,14 +18,12 @@
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Introspection.Back.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Introspection.Back.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/DayWillEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/DayWillEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/EF/IntrospectionEFDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Introspection.Front.Infrastucture.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/appsettings.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/134a6267445f46b7a8730761c018e904811000/42/fdcfadb3/Color.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b58d3f3ca13c49a5b72d035ddf801fd010800/4e/14fd9ae2/IStateChangedNotifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b58d3f3ca13c49a5b72d035ddf801fd010800/73/55bfed86/IDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4888c408211e6663764d3ea9579b1ce4f5bc77edba3c9732d5c6fa411bf4c0/ControllerFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6518e12429e640b855e84dbcb556279a6dcdecc0f25132fcbc5510f956f771e7/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6f2c3a317ee06bc1b0766b94d4e6a045ea25c9a3da49cb9075bcee751250d4/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b4aa9d6deee74e2a511d54506de2de864a4b58ad22637cbbc79ef58cb10e3e9/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bebd253e21dcf766929bfdfd74615bfe46e6e1693b289273dbdb82152893/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,23 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RiderTestRunnerUnitTestingPageId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderTestRunnerUnitTestingPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.Front">
+}</component>
+  <component name="RunManager" selected=".NET Project.Back">
     <configuration name="BackAndFront" type="CompoundRunConfigurationType">
       <toRun name="Back" type="DotNetProject" />
       <toRun name="Front" type="DotNetProject" />
@@ -202,7 +202,8 @@
       <workItem from="1668968373562" duration="5317000" />
       <workItem from="1668977062794" duration="251000" />
       <workItem from="1670014731142" duration="2129000" />
-      <workItem from="1670069778900" duration="4117000" />
+      <workItem from="1670069778900" duration="4476000" />
+      <workItem from="1670104022980" duration="5942000" />
     </task>
     <servers />
   </component>
@@ -258,19 +259,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs</url>
-          <line>15</line>
-          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" initialLine="15" containingFunctionPresentation="constructor 'IntrospectionDapperDbContext'">
-            <startOffsets>
-              <option value="456" />
-            </startOffsets>
-            <endOffsets>
-              <option value="529" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

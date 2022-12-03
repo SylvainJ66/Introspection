@@ -17,8 +17,16 @@ public class DapperDayWillReadRepository : IDayWillReadRepository
     public async Task<IEnumerable<DayWill>> ByDate(DateTime date)
     {
         using var connection = _context.CreateConnection();
-        var query = "SELECT * FROM DayWills";
-        await connection.QueryAsync<DayWillEntity>(query);
-        return Enumerable.Empty<DayWill>();
+        var query = "SELECT * FROM \"DayWill\" d inner join \"Will\" w on d.\"Idwill\" = w.Id";
+        return (await connection.QueryAsync<DayWillEntity>(query)).ToDomain();
     }
+}
+
+internal static class DayWillMapper
+{
+    internal static DayWill ToDomain(this DayWillEntity dayWillEntity)
+        => new DayWill(dayWillEntity.Date, new Will("test"));
+    
+    internal static IEnumerable<DayWill> ToDomain(this IEnumerable<DayWillEntity> dayWillEntities)
+        => dayWillEntities.Select(ToDomain);
 }
