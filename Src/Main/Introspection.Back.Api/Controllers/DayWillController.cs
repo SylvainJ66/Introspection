@@ -1,11 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Introspection.Back.Domain.Gateways.Repositories;
 using Introspection.Back.Domain.UseCases;
-using Introspection.Domain.UseCases;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Introspection.Back.Api.Controllers
