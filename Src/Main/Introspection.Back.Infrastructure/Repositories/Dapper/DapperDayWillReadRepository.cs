@@ -2,6 +2,7 @@ using Dapper;
 using Introspection.Back.Domain.Gateways.Repositories;
 using Introspection.Back.Domain.Models;
 using Introspection.Back.Infrastructure.Repositories.Dapper.Entities;
+using Introspection.Back.Infrastructure.Repositories.Dapper.Mapper;
 
 namespace Introspection.Back.Infrastructure.Repositories.Dapper;
 
@@ -17,16 +18,13 @@ public class DapperDayWillReadRepository : IDayWillReadRepository
     public async Task<IEnumerable<DayWill>> ByDate(DateTime date)
     {
         using var connection = _context.CreateConnection();
-        var query = "SELECT * FROM \"DayWill\" d inner join \"Will\" w on d.\"Idwill\" = w.Id";
-        return (await connection.QueryAsync<DayWillEntity>(query)).ToDomain();
+        string query = $"SELECT * FROM \"DayWill\" d inner join \"Will\" w on d.\"Idwill\" = w.Id where d.\"date\" = '{date}'";
+        var result = await connection.QueryAsync<DayWillEntity, WillEntity, DayWillEntity>
+            (query, (dayWill, will) =>
+            {
+                dayWill.Will = will;
+                return dayWill;
+            });
+        return result.ToDomain();
     }
-}
-
-internal static class DayWillMapper
-{
-    internal static DayWill ToDomain(this DayWillEntity dayWillEntity)
-        => new DayWill(dayWillEntity.Date, new Will("test"));
-    
-    internal static IEnumerable<DayWill> ToDomain(this IEnumerable<DayWillEntity> dayWillEntities)
-        => dayWillEntities.Select(ToDomain);
 }

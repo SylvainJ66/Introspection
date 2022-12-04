@@ -17,14 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/appsettings.Testing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Integration.Back/DapperDayWillReadRepositoryShould.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Integration.Back/Introspection.Integration.Back.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Integration.Back/TestSetup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Tests/Introspection.Integration.Back/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Mapper/DayWillMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introspection.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Introspection.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Controllers/DayWillController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Api/Controllers/DayWillController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/DayWillEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/DayWillEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +202,7 @@
       <workItem from="1670014731142" duration="2129000" />
       <workItem from="1670069778900" duration="4476000" />
       <workItem from="1670104022980" duration="6544000" />
-      <workItem from="1670171347903" duration="5154000" />
+      <workItem from="1670171347903" duration="9659000" />
     </task>
     <servers />
   </component>
@@ -277,29 +274,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs</url>
-          <line>17</line>
+          <line>18</line>
           <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" initialLine="17" containingFunctionPresentation="method 'ByDate'">
             <startOffsets>
-              <option value="600" />
+              <option value="668" />
             </startOffsets>
             <endOffsets>
-              <option value="601" />
+              <option value="669" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs</url>
-          <line>20</line>
-          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" initialLine="20" containingFunctionPresentation="method 'CreateConnection'">
-            <startOffsets>
-              <option value="595" />
-            </startOffsets>
-            <endOffsets>
-              <option value="642" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

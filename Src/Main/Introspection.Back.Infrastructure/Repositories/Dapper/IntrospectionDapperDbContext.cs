@@ -16,8 +16,6 @@ public class IntrospectionDapperDbContext
         _connectionString = _configuration.GetConnectionString("SqlConnection")!;
     }
 
-    public IDbConnection CreateConnection()
-    {
-        return new NpgsqlConnection(_connectionString);
-    }
+    public IDbConnection CreateConnection() 
+        => new NpgsqlConnection(_connectionString);
 }
