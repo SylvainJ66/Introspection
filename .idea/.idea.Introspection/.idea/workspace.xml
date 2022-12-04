@@ -17,11 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947450c3-4147-49e0-99f6-34ec2eaebfad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Mapper/DayWillMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Main/Introspection.Shared/StringExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Introspection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/DapperDayWillReadRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/DayWillEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/Entities/DayWillEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Back.Infrastructure/Repositories/Dapper/IntrospectionDapperDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/ApiConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/ApiConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderTestRunnerUnitTestingPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "HotReloadSettingsPage",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Project.Back">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Introspection.Front.Blazor: Mudblazor.Template">
     <configuration name="BackAndFront" type="CompoundRunConfigurationType">
       <toRun name="Back" type="DotNetProject" />
       <toRun name="Front" type="DotNetProject" />
@@ -165,8 +166,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Launch Settings Profile.Introspection.Back.Api: Introspection.Api" />
         <item itemvalue=".NET Launch Settings Profile.Introspection.Front.Blazor: Mudblazor.Template" />
+        <item itemvalue=".NET Launch Settings Profile.Introspection.Back.Api: Introspection.Api" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +203,7 @@
       <workItem from="1670014731142" duration="2129000" />
       <workItem from="1670069778900" duration="4476000" />
       <workItem from="1670104022980" duration="6544000" />
-      <workItem from="1670171347903" duration="9659000" />
+      <workItem from="1670171347903" duration="13014000" />
     </task>
     <servers />
   </component>
@@ -247,19 +248,6 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Infrastucture/Repositories/FromApi/DayWillRepository.cs" initialLine="19" containingFunctionPresentation="method 'Today'">
-            <startOffsets>
-              <option value="547" />
-            </startOffsets>
-            <endOffsets>
-              <option value="548" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Src/Tests/Introspection.Integration.Back/DapperDayWillReadRepositoryShould.cs</url>
           <line>18</line>
           <properties documentPath="$PROJECT_DIR$/Src/Tests/Introspection.Integration.Back/DapperDayWillReadRepositoryShould.cs" initialLine="18" containingFunctionPresentation="method 'Give_daywills_by_date'">
@@ -284,6 +272,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/Src/Main/Introspection.Front.Blazor/Program.cs" initialLine="25" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="975" />
+            </startOffsets>
+            <endOffsets>
+              <option value="975" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

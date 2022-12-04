@@ -3,7 +3,6 @@ using Introspection.Front.Blazor;
 using Introspection.Front.Domain.Gateways;
 using Introspection.Front.Domain.Store;
 using Introspection.Front.Infrastucture.Repositories.FromApi;
-using Introspection.Front.Infrastucture.Repositories.InMemory;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Options;
@@ -23,12 +22,12 @@ builder.Services.AddFluxor(opt =>
 
 
 builder.Services.Configure<ApiConfiguration>(builder.Configuration.GetSection(nameof(ApiConfiguration)));
-/*builder.Services.AddHttpClient<IDayWillRepository, DayWillRepository>((sp, client) =>
+builder.Services.AddHttpClient<IDayWillRepository, DayWillRepository>((sp, client) =>
 {
     var options = sp.GetRequiredService<IOptions<ApiConfiguration>>();
     client.BaseAddress = new Uri("https://localhost:6001");
-});*/
+});
 
-builder.Services.AddSingleton<IDayWillRepository, InMemoryDayWillRepository>();
+//builder.Services.AddSingleton<IDayWillRepository, InMemoryDayWillRepository>();
 
 await builder.Build().RunAsync();

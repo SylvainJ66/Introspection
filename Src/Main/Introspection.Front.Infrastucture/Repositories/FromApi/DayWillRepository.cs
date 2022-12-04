@@ -1,6 +1,7 @@
 using System.Net.Http.Json;
 using Introspection.Front.Domain.Gateways;
 using Introspection.Front.Domain.Models;
+using Introspection.Shared;
 using Introspection.Shared.Models;
 using Microsoft.AspNetCore.Http.Extensions;
 
@@ -20,7 +21,8 @@ public class DayWillRepository : IDayWillRepository
     {
         var dateProvider = new DeterministicDateProvider();
         dateProvider.SetDateOfNow(DateTime.Now);
+
         return await _client.GetFromJsonAsync<IEnumerable<DayWill>>(
-            new Uri($"api/DayWill/2022-01-01"));
+            new Uri($"api/DayWill/{dateProvider:o}"));
     }
 }
