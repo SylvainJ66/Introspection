@@ -1,5 +1,6 @@
 using Introspection.Back.Domain.Gateways.Repositories;
 using Introspection.Back.Domain.Models;
+using Introspection.Common.Back;
 
 namespace Introspection.Back.Infrastructure.Repositories.InMemory;
 
@@ -12,10 +13,12 @@ public class InMemoryDayWillRepository : IDayWillRepository
     /// <returns></returns>
     public Task<IEnumerable<DayWill>> ByDate(DateTime date)
     {
+        var dayWillBuilder = new DayWillTestBuilder();
+        
         return Task.FromResult<IEnumerable<DayWill>>(new List<DayWill>
         {
-            new(new DateTime(2022, 01, 01),new Will("SleepEarly")),
-            new(new DateTime(2022, 01, 01),new Will("Sport")),
+            dayWillBuilder.WithWill("SleepEarly").Build(),
+            dayWillBuilder.WithWill("Sport").Build(),
         });
     }
 }

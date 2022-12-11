@@ -9,6 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Tests\Introspection.Common.Back\Introspection.Common.Back.csproj" />
       <ProjectReference Include="..\Introspection.Back.Domain\Introspection.Back.Domain.csproj" />
     </ItemGroup>
 

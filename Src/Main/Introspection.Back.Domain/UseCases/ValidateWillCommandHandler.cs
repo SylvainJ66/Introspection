@@ -15,10 +15,9 @@ public class ValidateWillCommandHandler
             return Task.CompletedTask;
         }
 
-        var dayWill = new DayWill(date, will)
-        {
-            Status = DayValidationStatus.Validated
-        };
+        var dayWill = DayWill.From(date, will);
+        dayWill.Status = DayValidationStatus.Validated;
+        
         will.DayWills.Add(dayWill);
         
         return Task.CompletedTask;

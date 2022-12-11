@@ -5,7 +5,7 @@ namespace Introspection.Back.Domain.Models;
 /// </summary>
 public class DayWill
 {
-    public DayWill(DateTime date, Will will)
+    private DayWill(DateTime date, Will will)
     {
         Id = Guid.NewGuid();
         Date = date;
@@ -17,4 +17,6 @@ public class DayWill
     public Will Will { get; }
     public DayValidationStatus Status { get; set; }
 
+    public static DayWill From(DateTime date, Will will) 
+        => new DayWill(date, will);
 }

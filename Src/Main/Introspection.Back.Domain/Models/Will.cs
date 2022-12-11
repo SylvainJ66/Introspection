@@ -6,7 +6,7 @@ namespace Introspection.Back.Domain.Models;
 /// </summary>
 public class Will
 {
-    public Will(string name)
+    private Will(string name)
     {
         Name = name;
     }
@@ -18,4 +18,7 @@ public class Will
         => DayWills.Any(d => d.Date.Date == date.Date) 
             ? DayWills.First(d => d.Date.Date == date.Date).Status 
             : DayValidationStatus.Missed;
+
+    public static Will From(string name) 
+        => new Will(name);
 }
